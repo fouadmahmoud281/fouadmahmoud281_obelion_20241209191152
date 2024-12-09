@@ -1,0 +1,93 @@
+.file-transfer-page {
+  background-color: #333;
+  color: #fff;
+  font-family: 'Arvo', sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.file-transfer-page .header {
+  background-color: #6666FF;
+  padding: 20px;
+  text-align: center;
+}
+
+.file-transfer-page .logo {
+  max-width: 150px;
+}
+
+.file-transfer-page .navigation {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.file-transfer-page .nav-link {
+  color: #fff;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+.file-transfer-page .nav-link:hover {
+  color: #66FF66;
+}
+
+.file-transfer-page .main-content {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.file-transfer-page .file-transfer-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.file-transfer-page .form-group {
+  margin-bottom: 20px;
+}
+
+.file-transfer-page .form-label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.file-transfer-page .file-input {
+  margin-bottom: 20px;
+}
+
+.file-transfer-page .primary-button {
+  background-color: #FF7777;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.file-transfer-page .primary-button:hover {
+  background-color: #FF9999;
+}
+
+.file-transfer-page .footer {
+  background-color: #5555FF;
+  padding: 10px;
+  text-align: center;
+}
+
+.file-transfer-page .footer-text {
+  margin: 0;
+}
+
+.file-transfer-page .footer-link {
+  color: #66FF66;
+  text-decoration: none;
+}
+
+.file-transfer-page .footer-link:hover {
+  text-decoration: underline;
+}

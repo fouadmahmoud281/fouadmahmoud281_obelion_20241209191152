@@ -15,9 +15,9 @@
         "redux": "latest"
     },
     "devDependencies": {
+        "react": "latest",
         "eslint": "7.32.0",
-        "webpack": "latest",
-        "react": "latest"
+        "webpack": "latest"
     },
     "browserslist": {
         "production": [

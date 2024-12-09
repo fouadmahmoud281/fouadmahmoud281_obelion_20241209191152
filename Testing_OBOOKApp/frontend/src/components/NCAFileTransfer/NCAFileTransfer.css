@@ -1,0 +1,87 @@
+.nca-file-transfer {
+  background-color: #333;
+  color: #fff;
+  font-family: 'Arvo', sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.nca-file-transfer .header {
+  background-color: #6666FF;
+  padding: 20px;
+  text-align: center;
+}
+
+.nca-file-transfer .logo {
+  max-width: 150px;
+}
+
+.nca-file-transfer .navigation-tabs ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  background-color: #5555FF;
+}
+
+.nca-file-transfer .navigation-tabs li {
+  cursor: pointer;
+  padding: 10px 20px;
+  color: #fff;
+}
+
+.nca-file-transfer .navigation-tabs li:hover {
+  background-color: #66FF66;
+}
+
+.nca-file-transfer .main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.nca-file-transfer .main-content h1 {
+  color: #66FF66;
+}
+
+.nca-file-transfer .file-transfer-form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.nca-file-transfer .file-transfer-form label {
+  margin-bottom: 10px;
+}
+
+.nca-file-transfer .file-transfer-form input[type="file"] {
+  margin-bottom: 20px;
+}
+
+.nca-file-transfer .primary-action-button {
+  background-color: #FF7777;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.nca-file-transfer .primary-action-button:hover {
+  background-color: #FF9999;
+}
+
+.nca-file-transfer .additional-links {
+  margin-top: 20px;
+}
+
+.nca-file-transfer .additional-links a {
+  color: #66FF66;
+  margin-right: 15px;
+}
+
+.nca-file-transfer .footer {
+  background-color: #5555FF;
+  padding: 10px;
+  text-align: center;
+}
